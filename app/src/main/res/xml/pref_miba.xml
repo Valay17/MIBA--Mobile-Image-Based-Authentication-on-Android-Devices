@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+        android:entries="@array/pref_miba_length_titles"
+        android:title="@string/pref_title_length"
+        android:key="miba_length"
+        android:defaultValue="1"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_miba_length_values"/>
+</PreferenceScreen>

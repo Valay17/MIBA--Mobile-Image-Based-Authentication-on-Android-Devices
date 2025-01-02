@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.main.mp1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:6:5-73
+8        android:minSdkVersion="21"
+8-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:6:15-41
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:6:42-71
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:5:22-63
+12
+13    <application
+13-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:7:5-50:19
+14        android:allowBackup="true"
+14-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Valay\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MP1" >
+22-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:13:9-41
+23        <activity
+23-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:14:9-21:20
+24            android:name="com.main.mp1.MainActivity"
+24-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:15:13-53
+25            android:exported="true" >
+25-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:17:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:19:17-77
+29-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:23:9-25:20
+33            android:name="com.main.mp1.openmiba.MIBAActivity"
+33-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:23:63-112
+34            android:label="@string/title_activity_miba" >
+34-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:23:19-62
+35            <meta-data
+35-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+36                android:name="android.support.PARENT_ACTIVITY"
+36-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+37                android:value="com.main.mp1.MainActivity" />
+37-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+38        </activity>
+39        <activity
+39-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:27:9-29:20
+40            android:name="com.main.mp1.openmiba.MIBACreatePasswordActivity"
+40-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:27:79-142
+41            android:label="@string/title_activity_miba_create_password" >
+41-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:27:19-78
+42            <meta-data
+42-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+44                android:value="com.main.mp1.openmiba.MIBAActivity" />
+44-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+45        </activity>
+46        <activity
+46-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:31:9-33:20
+47            android:name="com.main.mp1.openmiba.MIBASettingsActivity"
+47-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:31:72-129
+48            android:label="@string/title_activity_miba_settings" >
+48-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:31:19-71
+49            <meta-data
+49-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+51                android:value="com.main.mp1.openmiba.MIBAActivity" />
+51-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+52        </activity>
+53        <activity
+53-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:35:9-37:20
+54            android:name="com.main.mp1.openmiba.MIBALoginActivity"
+54-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:35:69-123
+55            android:label="@string/title_activity_miba_login" >
+55-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:35:19-68
+56            <meta-data
+56-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+57                android:name="android.support.PARENT_ACTIVITY"
+57-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+58                android:value="com.main.mp1.openmiba.MIBAActivity" />
+58-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+59        </activity>
+60        <activity
+60-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:38:9-40:20
+61            android:name="com.main.mp1.openpassgo.PassGoActivity"
+61-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:38:66-119
+62            android:label="@string/title_activity_pass_go" >
+62-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:38:19-65
+63            <meta-data
+63-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+64                android:name="android.support.PARENT_ACTIVITY"
+64-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+65                android:value="com.main.mp1.MainActivity" />
+65-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+66        </activity>
+67        <activity
+67-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:41:9-43:20
+68            android:name="com.main.mp1.openpassgo.PassGoCreatePasswordActivity"
+68-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:41:82-149
+69            android:label="@string/title_activity_pass_go_create_password" >
+69-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:41:19-81
+70            <meta-data
+70-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+71                android:name="android.support.PARENT_ACTIVITY"
+71-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+72                android:value="com.main.mp1.openpassgo.PassGoActivity" />
+72-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+73        </activity>
+74        <activity
+74-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:44:9-46:20
+75            android:name="com.main.mp1.openpassgo.PassGoSettingsActivity"
+75-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:44:75-136
+76            android:label="@string/title_activity_pass_go_settings" >
+76-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:44:19-74
+77            <meta-data
+77-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+78                android:name="android.support.PARENT_ACTIVITY"
+78-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+79                android:value="com.main.mp1.openpassgo.PassGoActivity" />
+79-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+80        </activity>
+81        <activity
+81-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:47:9-49:20
+82            android:name="com.main.mp1.openpassgo.PassGoLoginActivity"
+82-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:47:72-130
+83            android:label="@string/title_activity_pass_go_login" >
+83-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:47:19-71
+84            <meta-data
+84-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:13-114
+85                android:name="android.support.PARENT_ACTIVITY"
+85-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:24-70
+86                android:value="com.main.mp1.openpassgo.PassGoActivity" />
+86-->C:\Users\Valay\All Data\College\SE\SEM 4\Projects\Main\MP1\app\src\main\AndroidManifest.xml:24:71-112
+87        </activity>
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+91            android:authorities="com.main.mp1.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Valay\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Valay\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Valay\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+99        </provider>
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0] C:\Users\Valay\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+107    </application>
+108
+109</manifest>

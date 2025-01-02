@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\passgo_choosep.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\passgo_choosep.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pass_go.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_pass_go.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_miba_create_password.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_miba_create_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pass_go_login.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_pass_go_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_miba.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_miba.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\passgo_rememberpw_dialog.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\passgo_rememberpw_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\scheme_home.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\scheme_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_miba_login.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_miba_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pass_go_create_password.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\activity_pass_go_create_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\miba_rememberpw_dialog.xml",
+        "source": "C:\\Users\\Valay\\All Data\\College\\SE\\SEM 4\\Projects\\Main\\MP1\\app\\src\\main\\res\\layout\\miba_rememberpw_dialog.xml"
+    }
+]

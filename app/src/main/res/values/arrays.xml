@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_miba_length_titles">
+        <item>1 Round</item>
+        <item>2 Rounds</item>
+        <item>3 Rounds</item>
+        <item>4 Rounds</item>
+        <item>5 Rounds</item>
+        <item>6 Rounds</item>
+    </string-array>
+    <string-array name="pref_miba_length_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="pref_passgo_length_titles">
+        <item>2 Lines</item>
+        <item>3 Lines</item>
+        <item>4 Lines</item>
+        <item>5 Lines</item>
+        <item>6 Lines</item>
+        <item>7 Lines</item>
+        <item>8 Lines</item>
+        <item>9 Lines</item>
+        <item>10 Lines</item>
+        <item>11 Lines</item>
+        <item>12 Lines</item>
+    </string-array>
+    <string-array name="pref_passgo_length_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    </resources>

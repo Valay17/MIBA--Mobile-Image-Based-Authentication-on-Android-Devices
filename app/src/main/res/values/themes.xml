@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.MP1" parent="Theme.MP1.ActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:statusBarColor">@color/Black</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowBackground">@color/Peach</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:fontFamily">@font/arial</item>
+    </style>
+
+    <style name="ActionBar" parent="@style/Theme.MP1.ActionBar">
+        <item name="android:background">@color/Peachish</item>
+    </style>
+
+    <style name="Theme.MP1.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MP1.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+    <style name="Theme.MP1.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

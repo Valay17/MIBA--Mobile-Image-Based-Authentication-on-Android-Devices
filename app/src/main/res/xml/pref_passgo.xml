@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/pref_passgo_length_titles"
+        android:title="@string/pref_title_length"
+        android:key="passgo_length"
+        android:defaultValue="6"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_passgo_length_values"/>
+</PreferenceScreen>

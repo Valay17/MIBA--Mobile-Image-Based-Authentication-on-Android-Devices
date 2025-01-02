@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.main.mp1">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="15"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MP1">
+        <activity
+            android:name="com.main.mp1.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:label="@string/title_activity_miba" android:name="com.main.mp1.openmiba.MIBAActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.MainActivity"/>
+        </activity>
+
+        <activity android:label="@string/title_activity_miba_create_password" android:name="com.main.mp1.openmiba.MIBACreatePasswordActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openmiba.MIBAActivity"/>
+        </activity>
+
+        <activity android:label="@string/title_activity_miba_settings" android:name="com.main.mp1.openmiba.MIBASettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openmiba.MIBAActivity"/>
+        </activity>
+
+        <activity android:label="@string/title_activity_miba_login" android:name="com.main.mp1.openmiba.MIBALoginActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openmiba.MIBAActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_pass_go" android:name="com.main.mp1.openpassgo.PassGoActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.MainActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_pass_go_create_password" android:name="com.main.mp1.openpassgo.PassGoCreatePasswordActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openpassgo.PassGoActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_pass_go_settings" android:name="com.main.mp1.openpassgo.PassGoSettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openpassgo.PassGoActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_pass_go_login" android:name="com.main.mp1.openpassgo.PassGoLoginActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.main.mp1.openpassgo.PassGoActivity"/>
+        </activity>
+    </application>
+</manifest>

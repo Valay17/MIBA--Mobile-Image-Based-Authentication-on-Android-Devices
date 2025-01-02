@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="#ff000000" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/tvRound" android:background="#c8b7b7b7" android:paddingLeft="10dp" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_round" android:layout_alignParentTop="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/buttonBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/miba_btnBack"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_wifi_protected_setup_24"
+            android:text="@string/btn_undo" />
+    </LinearLayout>
+    <TableLayout android:orientation="vertical" android:id="@+id/tableLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/buttonBar" android:layout_below="@+id/tvRound">
+        <TableRow android:padding="10dp" android:layout_height="match_parent" android:layout_weight="0.3">
+            <LinearLayout android:orientation="vertical" android:id="@+id/square1" android:background="#ffff00" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_weight="0.5"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/square2" android:background="#ff00ff" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="0.5"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_height="match_parent" android:layout_weight="0.3">
+            <LinearLayout android:orientation="vertical" android:id="@+id/square3" android:background="#00ffff" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_weight="0.5"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/square4" android:background="#eeeeee" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="0.5"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_height="match_parent" android:layout_weight="0.3">
+            <LinearLayout android:orientation="vertical" android:id="@+id/square5" android:background="#fb0000" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_weight="0.5"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/square6" android:background="#2c6bf9" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="0.5"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_height="match_parent" android:layout_weight="0.3">
+            <LinearLayout android:orientation="vertical" android:id="@+id/square7" android:background="#07f712" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_weight="0.5"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/square8" android:background="#ff8400" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="0.5"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
