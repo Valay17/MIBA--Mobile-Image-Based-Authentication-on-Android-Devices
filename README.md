@@ -92,9 +92,54 @@ git clone https://github.com/Valay17/MIBA--Mobile-Image-Based-Authentication-on-
 Here’s a video demo showing how the app works, showcasing all the features of the image-based authentication system and its multitouch functionality.
 
 MIBA:
+1. **Opening the App**
+   - App Icon and Home Screen Preview.
+
+2. **Selecting MIBA**
+   - User selects the **Open MIBA** option.
+
+3. **Option for Round Selection**
+   - Display the available options for **Round Selection**.
+   - Select **3 rounds** for the password.
+
+4. **Creating Password**
+   - Walkthrough of creating a password with **3 rounds**.
+
+5. **Password Memorization**
+   - Shows the process of the user memorizing their password.
+
+6. **Password Entry**
+   - Shows how the user enters the password using multiple points on the image.
+
+7. **Getting Incorrect Shows Wrong Image**
+   - When the user inputs the wrong password, the wrong image is shown.
 
 <video src="https://github.com/user-attachments/assets/22102956-3d63-407e-8c90-d23898b979ae"></video>
+
+
 Pass-Go:
+1. **Selecting Pass Go**
+   - User selects the **Open Pass-Go** option.
+
+2. **Option for Round Selection**
+   - Display the available options for **Round Selection**.
+   - Select **7 lines** for the password.
+
+3. **Creating Password**
+   - Walkthrough of creating a password with **7 lines**.
+
+4. **Password Memorization**
+   - Shows the process of the user memorizing their password.
+
+5. **Password Entry**
+   - Shows how the user enters the password by drawing **7 lines**.
+
+6. **Show Retry Feature**
+   - Demonstrate the **retry feature** if the user remembers they entered the password incorrectly.
+
+7. **Dots and Lines Functionality**
+   - User can create a password by drawing lines or taping on the intersecting lines to select the dots to form a sequence.
+
 <video src="https://github.com/user-attachments/assets/a0ba5b6d-b086-4c65-808b-8d757ca33710"></video>
 
 ## License
