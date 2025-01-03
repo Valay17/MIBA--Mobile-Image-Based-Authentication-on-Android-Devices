@@ -1,5 +1,11 @@
-# Mobile Image-Based Authentication on Android Devices
+<img src="https://github.com/user-attachments/assets/e8a1d266-bd9c-4328-b853-3f40f1eed320" align="left" width="120" height="120"> 
+<div id="user-content-toc" align="center">
+  <ul>
+  <summary><h1> <p>Mobile Image-Based Authentication on Android Devices</p> </h1></summary>
+  </ul>
+</div>
 
+#
 This project implements a **Mobile Image-Based Authentication (MIBA)** system for Android devices, which allows users to authenticate by selecting multiple points on an image using multitouch. It is designed to offer better usability compared to traditional text passwords, especially for users with disabilities like dyslexia, while still maintaining strong security.
 
 ## Abstract
