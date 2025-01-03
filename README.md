@@ -88,9 +88,8 @@ git clone https://github.com/Valay17/MIBA--Mobile-Image-Based-Authentication-on-
 1. Connect an Android device or start an emulator.
 2. Click the "Run" button in Android Studio to install and launch the app.
 
-### License
-This project is **not licensed**. No rights are granted to use, modify, distribute, or otherwise use the code in this repository unless explicitly stated otherwise. By using or accessing the repository, you acknowledge that you are not being granted any rights or licenses to the content or code.
-
-### Video Demo
+## Video Demo
 Here’s a video demo showing how the app works, showcasing all the features of the image-based authentication system and its multitouch functionality.
 
+## License
+This project is **not licensed**. No rights are granted to use, modify, distribute, or otherwise use the code in this repository unless explicitly stated otherwise. By using or accessing the repository, you acknowledge that you are not being granted any rights or licenses to the content or code.
