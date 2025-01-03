@@ -80,13 +80,11 @@ git clone https://github.com/Valay17/MIBA--Mobile-Image-Based-Authentication-on-
 ```
 
 ### Open the project in Android Studio
-# Steps:
 1. Launch Android Studio.
 2. Open the cloned project folder (`mobile-image-based-authentication`).
 3. Sync the Gradle files by clicking "Sync Now."
 
 ### Run the app
-# Steps:
 1. Connect an Android device or start an emulator.
 2. Click the "Run" button in Android Studio to install and launch the app.
 
