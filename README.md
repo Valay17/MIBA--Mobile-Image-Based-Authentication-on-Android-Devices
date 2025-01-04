@@ -18,7 +18,7 @@ Text input as passwords can be difficult for **differently-abled people** (e.g.,
 
 ## Introduction
 
-We propose a **multitouch image-based authentication method (MIBA)** that allows simultaneous use of multiple fingers for entering graphical passwords. We show that **MIBA** requires shorter and quicker-to-type passwords to achieve the same entropy and security as other graphical password schemes or PIN entry.
+We introduce a **multitouch image-based authentication method (MIBA)** that allows simultaneous use of multiple fingers for entering graphical passwords. We show that **MIBA** requires shorter and quicker-to-type passwords to achieve the same entropy and security as other graphical password schemes or PIN entry.
 
 ## Requirement Analysis
 
