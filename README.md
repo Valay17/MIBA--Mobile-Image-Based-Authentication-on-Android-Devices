@@ -151,9 +151,6 @@ Pass-Go:
 ## **Contributors**
 This project was successfully prototyped in collaboration with:
 - <a href="https://www.github.com/SinghAnuj29" target="_blank">@SinghAnuj29</a>
-- <a href="https://www.github.com/VaibhavNohwar01" target="_blank">@VaibhavNohwar01</a>
-- <a href="https://www.github.com/HetDave0005" target="_blank">@HetDave0005</a>
-
 
 ## License
 This project is **not licensed**. No rights are granted to use, modify, distribute, or otherwise use the code in this repository unless explicitly stated otherwise. By using or accessing the repository, you acknowledge that you are not being granted any rights or licenses to the content or code.
